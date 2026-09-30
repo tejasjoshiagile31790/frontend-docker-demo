@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      context: .
+    # container_name: docker_demo_fe_container
+    ports:
+      - "5173:5173"
